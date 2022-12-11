@@ -19,34 +19,40 @@
   </head>
   <body>
     <!--хедер сайта-->
-    <header>
-      <div class="header container">
-        <nav class="nav">
-          <a href="./index.html" class="logo list"> <span class="span">Web</span>Studio</a>
+    <header class="page-header">
+      <div class="page-header__container container">
+        <nav class="navigation">
+          <a href="./index.html" class="navigation__logo list">
+            <span class="navigation__logo-span">Web</span>Studio</a
+          >
 
-          <ul class="site-nav list">
-            <li class="nav-item"><a href="./index.html" class="link list">Студія</a></li>
-
-            <li class="nav-item">
-              <a href="./portfolio.html" class="portfolio list">Портфоліо</a>
+          <ul class="navigation-list list">
+            <li class="navigation-list__item">
+              <a href="./index.html" class="navigation-list__link list">Студія</a>
             </li>
 
-            <li class="nav-item"><a href="./index.html" class="link list">Контакти</a></li>
+            <li class="navigation-list__item">
+              <a href="./portfolio.html" class="navigation-list__portfolio list">Портфоліо</a>
+            </li>
+
+            <li class="navigation-list__item">
+              <a href="./index.html" class="navigation-list__link list">Контакти</a>
+            </li>
           </ul>
         </nav>
 
-        <ul class="auth-nav list">
-          <li class="auth-item">
-            <a href="mailto:info@devstudio.com" class="link list">
-              <svg class="mail">
+        <ul class="auth-list list">
+          <li class="auth-list__item">
+            <a href="mailto:info@devstudio.com" class="auth-list__link list">
+              <svg class="auth-list__logo-mail">
                 <use href="./images/symbol-defs-opt.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="auth-item">
-            <a href="tel:+380961111111" class="link list">
-              <svg class="telephone">
+          <li class="auth-list__item">
+            <a href="tel:+380961111111" class="auth-list__link list">
+              <svg class="auth-list__logo-telephone">
                 <use href="./images/symbol-defs-opt.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -57,23 +63,33 @@
 
     <!-- основная информация -->
     <main>
-      <section class="section-portfolio">
-        <h1>Портфоліо</h1>
+      <section class="portfolio">
+        <h1 class="hidden">Портфоліо</h1>
         <div class="container">
           <ul class="portfolio-nav list">
-            <li class="nav-item"><button type="button" class="portfolio-btn">Усі</button></li>
-            <li class="nav-item"><button type="button" class="portfolio-btn">Веб-сайти</button></li>
-            <li class="nav-item"><button type="button" class="portfolio-btn">Додатки</button></li>
-            <li class="nav-item"><button type="button" class="portfolio-btn">Дизайн</button></li>
-            <li class="nav-item"><button type="button" class="portfolio-btn">Маркетинг</button></li>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Усі</button>
+            </li>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Веб-сайти</button>
+            </li>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Додатки</button>
+            </li>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Дизайн</button>
+            </li>
+            <li class="portfolio-nav__item">
+              <button type="button" class="portfolio-nav__btn">Маркетинг</button>
+            </li>
           </ul>
 
-          <ul class="cards-info list no-margin">
-            <li class="card">
-              <a href="" class="card-link list">
+          <ul class="portfolio-list list no-margin">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -83,16 +99,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Технокряк</h2>
-                  <p class="card-text">Веб-сайт</p>
+                  <h2 class="card-content__title">Технокряк</h2>
+                  <p class="card-content__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a href="" class="card-link card-link list">
+
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -102,17 +119,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="card-text">Дизайн</p>
+                  <h2 class="card-content__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="card-content__text">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -126,17 +143,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Ресторан Seafood</h2>
-                  <p class="card-text">Додаток</p>
+                  <h2 class="card-content__title">Ресторан Seafood</h2>
+                  <p class="card-content__text">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -146,17 +163,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Проєкт Prime</h2>
-                  <p class="card-text">Маркетинг</p>
+                  <h2 class="card-content__title">Проєкт Prime</h2>
+                  <p class="card-content__text">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -166,17 +183,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Проєкт Boxes</h2>
-                  <p class="card-text">Додаток</p>
+                  <h2 class="card-content__title">Проєкт Boxes</h2>
+                  <p class="card-content__text">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -190,17 +207,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Inspiration has no Borders</h2>
-                  <p class="card-text">Веб-сайт</p>
+                  <h2 class="card-content__title">Inspiration has no Borders</h2>
+                  <p class="card-content__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -210,17 +227,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Видання Limited Edition</h2>
-                  <p class="card-text">Дизайн</p>
+                  <h2 class="card-content__title">Видання Limited Edition</h2>
+                  <p class="card-content__text">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -230,17 +247,17 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Проєкт LAB</h2>
-                  <p class="card-text">Маркетинг</p>
+                  <h2 class="card-content__title">Проєкт LAB</h2>
+                  <p class="card-content__text">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a href="" class="card-link list">
+            <li class="portfolio-list__card">
+              <a href="" class="portfolio-list__link list">
                 <div class="card-thumb">
-                  <div class="overlay">
-                    <p class="thumb-text">
+                  <div class="card-thumb__overlay">
+                    <p class="card-thumb__text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea reiciendis
                       id hic placeat quis architecto, ullam fugit, a harum maxime, sit quod
                       inventore commodi?
@@ -254,8 +271,8 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="card-title">Growing Business</h2>
-                  <p class="card-text">Додаток</p>
+                  <h2 class="card-content__title">Growing Business</h2>
+                  <p class="card-content__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -264,58 +281,63 @@
       </section>
     </main>
     <!--подвал!-->
-    <footer class="footer">
+    <footer class="page-footer">
       <div class="footer-container container">
-        <address>
-          <a href="./index.html" class="logo list"> <span class="span">Web</span>Studio</a>
-          <ul class="site-address list no-margin">
-            <li class="address-item">
+        <address class="address">
+          <a href="./index.html" class="address__logo list">
+            <span class="address__span">Web</span>Studio</a
+          >
+          <ul class="address-list list no-margin">
+            <li class="address-list__item">
               <a
                 href="https://goo.gl/maps/yjSmeDeuVUnGaKGq8"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="link map list"
+                class="address-list__map list"
               >
                 м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
 
-            <li class="address-item">
-              <a href="mailto:info@devstudio.com" class="link contact list">info@devstudio.com</a>
+            <li class="address-list__item">
+              <a href="mailto:info@devstudio.com" class="address-list__link list"
+                >info@devstudio.com</a
+              >
             </li>
 
-            <li class="address-item">
-              <a href="tel:+380961111111" class="link contact list">+38 096 111 11 11</a>
+            <li class="address-list__item">
+              <a href="tel:+380961111111" class="address-list__link list">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
-        <div class="footer-center">
-          <p class="social-title">приєднуйтесь</p>
-          <ul class="footer-social list no-margin">
-            <li class="footer-item">
-              <a class="icon" href="https://www.instagram.com/"
+
+        <div class="footer-container-social">
+          <p class="footer-container-social__title">приєднуйтесь</p>
+          <ul class="footer-container-social__list list no-margin">
+            <li class="footer-container-social__item">
+              <a class="footer-container-social__icon" href="https://www.instagram.com/"
                 ><svg width="20" height="20">
                   <use href="./images/symbol-defs-opt.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="footer-item">
-              <a href="https://twitter.com/" class="icon">
+            <li class="footer-container-social__item">
+              <a href="https://twitter.com/" class="footer-container-social__icon">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs-opt.svg#icon-twitter"></use></svg
               ></a>
             </li>
 
-            <li class="footer-item">
-              <a href="https://www.facebook.com/" class="icon">
+            <li class="footer-container-social__item">
+              <a href="https://www.facebook.com/" class="footer-container-social__icon">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs-opt.svg#icon-facebook"></use></svg
               ></a>
             </li>
 
-            <li class="footer-item">
-              <a href="https://www.linkedin.com/" class="icon">
+            <li class="footer-container-social__item">
+              <a href="https://www.linkedin.com/" class="footer-container-social__icon">
                 <svg width="20" height="20">
                   <use href="./images/symbol-defs-opt.svg#icon-linkedin"></use></svg
               ></a>
@@ -323,13 +345,19 @@
           </ul>
         </div>
 
-        <div class="form">
-          <p class="form-title">Підпишіться на розсилку</p>
+        <div class="footer-container-form">
+          <p class="footer-container-form__title">Підпишіться на розсилку</p>
           <form action="follow-form">
-            <input type="email" name="email" placeholder="Email" class="follow-input" required />
-            <button type="submit" class="btn-footer">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="follow-form__input"
+              required
+            />
+            <button type="submit" class="follow-form__button">
               Підписатися
-              <svg class="icon-send">
+              <svg class="follow-form__icon">
                 <use href="./images/symbol-defs-opt.svg#icon-send"></use>
               </svg>
             </button>
