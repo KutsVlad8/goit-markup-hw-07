@@ -8,34 +8,34 @@ $bg-footer-color: #2f303a;
 $bg-modal-overlay-color: rgba(0, 0, 0, 0.2);
 
 // цвет текста
-$primary-text-color: #757575;
-$secondary-text-color: #ffffff;
-$primary-title-color: #212121;
-$secondary-title-color: #ffffff;
+$color-text-primary: #757575;
+$color-text-secondary: #ffffff;
+$color-title-primary: #212121;
+$color-title-secondary: #ffffff;
 
 // цвет текста ссылок
-$primary-link-color: #212121;
-$secondary-link-color: #757575;
-$primary-link-color: #212121;
-$third-link-color: rgba(255, 255, 255, 0.6);
-$change-link-color: #ffffff;
+$color-link-primary: #212121;
+$color-link-secondary: #757575;
+$color-link-primary: #212121;
+$color-link-third: rgba(255, 255, 255, 0.6);
+$color-link-change-: #ffffff;
 
 // цвет кнопок
 $bg-btn-change--color: #188ce8;
 
 // тени
-$portfolio-nav-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-$portfolio-card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+$shadow-portfolio-nav: 0px 1px 3px rgba(0, 0, 0, 0.25);
+$shadow-portfolio-card: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
 
-$team-card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+$shadow-team-card: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
 
 // цвет фона
-$bg-features-icon--color: #f5f4fa;
-$bg-footer-icon--color: rgba(255, 255, 255, 0.1);
+$bg-features-icon-color: #f5f4fa;
+$bg-footer-social-color: rgba(255, 255, 255, 0.1);
 
 // цвет иконок
-$icon-team-color: #afb1b8;
-$icon-modal-color: #212121;
-$icon-change-color: #ffffff;
+$color-icon-team: #afb1b8;
+$color-icon-modal: #212121;
+$color-icon-change: #ffffff;
