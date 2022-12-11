@@ -1,0 +1,11 @@
+article {
+  -webkit-box-shadow: inset;
+          box-shadow: inset;
+}
+article:hover {
+  color: #212121;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=main.css.map */

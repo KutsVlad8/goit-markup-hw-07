@@ -1,0 +1,12 @@
+@import './utils/variables';
+
+article {
+  box-shadow: inset;
+  &:hover {
+    color: $primary-link-color;
+  }
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
