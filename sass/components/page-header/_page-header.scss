@@ -1,0 +1,16 @@
+.page-header {
+  border-bottom: 1px solid $border-color-header;
+}
+.page-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+@import './navigation__logo';
+@import './navigation-list';
+@import './auth-list';

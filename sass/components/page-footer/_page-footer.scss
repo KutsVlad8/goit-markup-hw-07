@@ -1,0 +1,15 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+  background-color: $bg-footer-color;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+@import './address';
+@import './footer-social';
+@import './footer-form';
