@@ -1,0 +1,40 @@
+@import '../page-header/page-header';
+
+.section-contact {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  /* background-color: var(--background-color-hello); */
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hello.jpg);
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, cover;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-contact__title {
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  color: $color-text-secondary;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@import './contacts-list';
+@import '../page-footer/page-footer';
