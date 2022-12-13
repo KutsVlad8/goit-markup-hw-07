@@ -10,6 +10,10 @@
   align-items: baseline;
 }
 
-@import './address';
+.footer-container-list {
+  @import './page-footer__logo';
+  @import './address';
+}
+
 @import './footer-social';
 @import './footer-form';
