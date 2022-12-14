@@ -16,11 +16,11 @@
 .section-scope-list {
   display: flex;
   padding-left: 0;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .section-scope-list__item {
-  margin-left: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 
   &:first-child {
     margin-left: 0;

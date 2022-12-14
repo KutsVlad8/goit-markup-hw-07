@@ -17,10 +17,11 @@
 .team-list {
   display: flex;
   padding-left: 0;
+  gap: 30px;
 }
 
 .team-list__card {
-  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 4);
 
   background-color: $bg-primary-color;
   border-radius: 0px 0px 4px 4px;
